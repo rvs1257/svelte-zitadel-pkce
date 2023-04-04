@@ -1,5 +1,5 @@
 {
-	"name": "svelte-zitadel-pkce2",
+	"name": "svelte-zitadel-pkce",
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
@@ -31,5 +31,8 @@
 		"vite": "^4.2.0",
 		"vitest": "^0.25.3"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"oidc-client-ts": "^2.2.2"
+	}
 }
